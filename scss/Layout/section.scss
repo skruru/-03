@@ -1,0 +1,30 @@
+.feature {
+    position: relative;
+    &_txt {
+        width: 30%;
+    }
+}
+.about {
+    color: #fff;
+    position: relative;
+    .content_ttl h2::before {
+        border-top: 3px solid #fff;
+    }
+    .content_ttl h2::after {
+        border-top: 3px solid #fff;
+    }
+    &_img {
+        width: 50%;
+        text-align: center;
+    }
+}
+.icon_ttl {
+    font-weight: bold;
+    font-size: 20px;
+}
+.twitter {
+    width: 48%;
+}
+.note {
+    width: 48%;
+}

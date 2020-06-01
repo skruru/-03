@@ -1,0 +1,53 @@
+.content_wrap {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.content_min_wrap {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.content_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_ttl {
+	h2 {
+		margin-top: 70px;
+		font-size: 38px;
+		text-align: center;
+		font-weight: bold;
+        position: relative;
+	}
+	h2::before {
+		@include border(30%);
+    }
+    h2::after {
+		@include border(60%);
+	}
+	p {
+		text-align: center;
+	}
+}
+
+.content_btn {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 80px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: #fff;
+}
+// ヘルパークラス
+.jcsb {
+	justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+.mt40 {
+    margin-top: 40px;
+}
+.ptb40 {
+    padding: 40px 0;
+}

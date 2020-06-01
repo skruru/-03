@@ -1,0 +1,12 @@
+.nav {
+    &_lists {
+        justify-content: center;
+    }
+    &_list {
+        margin: 20px;
+        a {
+            color: $font-b;
+            display: block;
+        }
+    }
+}

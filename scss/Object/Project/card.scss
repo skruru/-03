@@ -1,0 +1,53 @@
+.works_card {
+    font-weight: bold;
+    margin-right: calc((1120px - 300px * 3)/2);
+    &_img {
+        position: relative;
+    }
+    &_img img{
+        width: 100%;
+    }
+    &_img p {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        z-index: 1;
+        width: 96%;
+    }
+    &_ttl {
+        text-align: center;
+    }
+    &_txt {
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+.skill_card {
+    box-shadow: 5px 5px 5px #aaa;
+    width: 480px;
+    border: 1px solid #f7f7f7;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: calc(1120px - 480px * 2);
+    &_icon {
+        text-align: center;
+        font-size: 70px;
+        color:$main-color;
+    }
+    &_ttl {
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+    }
+    &_txt {
+        padding: 25px;
+        color: #707070;
+    }
+    &:nth-child(2n){
+        margin-right: 0;
+    }
+}

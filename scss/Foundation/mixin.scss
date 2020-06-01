@@ -1,0 +1,9 @@
+@mixin border ($side){
+    content: "";
+    display: block;
+    width: 10%;
+    border-top: 3px solid $font_b;
+    position: absolute;
+    top: 50%;
+    left: $side;
+}
