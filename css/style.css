@@ -149,16 +149,18 @@ a {
   font-size: 20px;
 }
 
-.feature {
-  position: relative;
+.works {
+  background: #909090;
 }
+
 .feature_txt {
   width: 30%;
 }
 
 .about {
   color: #fff;
-  position: relative;
+  background: linear-gradient(90deg, #667EEA, #764BA2);
+  font-weight: bold;
 }
 .about .content_ttl h2::before {
   border-top: 3px solid #fff;
@@ -169,6 +171,9 @@ a {
 .about_img {
   width: 50%;
   text-align: center;
+}
+.about_img img {
+  border-radius: 50%;
 }
 
 .icon_ttl {
@@ -188,7 +193,7 @@ a {
   margin-top: 100px;
 }
 .footer_scroll {
-  background: rgba(255, 0, 0, 0.5);
+  background: linear-gradient(90deg, #667EEA, #764BA2);
   text-align: center;
   padding: 10px;
   font-weight: bold;
@@ -210,7 +215,7 @@ a {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(255, 0, 0, 0.5);
+  background: linear-gradient(90deg, #667EEA, #764BA2);
 }
 
 .works_card {
@@ -252,7 +257,9 @@ a {
 .skill_card_icon {
   text-align: center;
   font-size: 70px;
-  color: rgba(255, 0, 0, 0.5);
+  background: linear-gradient(90deg, #667EEA, #764BA2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .skill_card_ttl {
   text-align: center;

@@ -1,12 +1,18 @@
+.works {
+    background: #909090;
+}
+
+
+
 .feature {
-    position: relative;
     &_txt {
         width: 30%;
     }
 }
 .about {
     color: #fff;
-    position: relative;
+    background:$main-color;
+    font-weight: bold;
     .content_ttl h2::before {
         border-top: 3px solid #fff;
     }
@@ -16,6 +22,9 @@
     &_img {
         width: 50%;
         text-align: center;
+        img {
+            border-radius: 50%;
+        }
     }
 }
 .icon_ttl {

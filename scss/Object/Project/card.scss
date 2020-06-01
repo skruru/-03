@@ -33,11 +33,14 @@
     border-radius: 10px;
     margin-top: 40px;
     margin-right: calc(1120px - 480px * 2);
+
     &_icon {
         text-align: center;
         font-size: 70px;
-        color:$main-color;
-    }
+        background: $main-color;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
     &_ttl {
         text-align: center;
         font-weight: bold;
