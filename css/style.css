@@ -147,6 +147,7 @@ a {
 }
 .header_logo_txt {
   font-size: 20px;
+  color: #fff;
 }
 
 .works {
@@ -257,7 +258,7 @@ a {
 .skill_card_icon {
   text-align: center;
   font-size: 70px;
-  background: linear-gradient(90deg, #667EEA, #764BA2);
+  background: -webkit-linear-gradient(45deg, #667EEA, #764BA2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
