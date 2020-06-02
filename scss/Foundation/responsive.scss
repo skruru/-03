@@ -1,0 +1,88 @@
+@media screen and (max-width:480px){
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ptb40 {
+        padding: 0;
+    }
+    .mt40 {
+        margin-top: 0;
+    }
+    .content {
+        &_wrap {
+            width: 94%;
+        }
+        &_min_wrap {
+            width: 94%;
+        }
+        &_ttl {
+            h2 {
+            margin-top: 20px;
+
+                &::before {
+                    @include border(10%);
+                    width: 8%;
+                }
+                &::after {
+                    @include border(80%);
+                    width: 8%;
+                }
+            }
+            p {
+                padding: 20px;
+            }
+        }
+        &_flex {
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }
+    .works_card {
+        margin-right: 0;
+        &_ttl {
+            font-size: 20px;
+        }
+    }
+    .feature_txt {
+        width: 100%;
+    }
+    .nav {
+        padding-top: 100px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        background:rgba(0,0,0,0.5);
+        transform: translate(100%, 0);
+        transition: 1s;
+        &_list a {
+            color: #fff;
+        }
+    }
+    .header {
+        border-bottom: 1px solid #707070;
+        &_mv {
+            background-image: url(https://placehold.jp/480x300.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        &_logo_ttl {
+            font-size: 50px;
+        }
+    }
+    .twitter {
+        width: 100%;
+    }
+    .note {
+        width: 100%;
+    }
+    .skill_card {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+

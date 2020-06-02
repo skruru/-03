@@ -1,6 +1,6 @@
 .works_card {
     font-weight: bold;
-    margin-right: calc((1120px - 300px * 3)/2);
+    margin-right: calc((100% - 300px * 3)/2);
     cursor: pointer;
     margin-top: 40px;
     &_img {
@@ -30,11 +30,12 @@
 
 .skill_card {
     box-shadow: 5px 5px 5px #aaa;
-    width: 480px;
+    max-width: 480px;
     border: 1px solid #f7f7f7;
     border-radius: 10px;
     margin-top: 40px;
-    margin-right: calc(1120px - 480px * 2);
+    margin-right: calc((100% - 480px * 2)/4);
+    margin-left: calc((100% - 480px * 2)/4);
 
     &_icon {
         text-align: center;

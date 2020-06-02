@@ -7,12 +7,20 @@
 .feature {
     &_txt {
         width: 30%;
+        font-weight: bold;
+        a {
+            color: aqua;
+        }
+        dl {
+            margin: 30px 0;
+        }
     }
 }
 .about {
     color: #fff;
     background:$main-color;
     font-weight: bold;
+    padding: 40px 0;
     .content_ttl h2::before {
         border-top: 3px solid #fff;
     }
