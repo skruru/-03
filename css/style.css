@@ -150,8 +150,72 @@ a {
   color: #fff;
 }
 
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  transition: 1s;
+}
+.modal_inner {
+  background: #ffffff;
+  margin-top: 100px;
+  width: 60%;
+  padding: 10px;
+}
+.modal_img {
+  width: 45%;
+}
+.modal_txt {
+  width: 45%;
+  font-weight: bold;
+}
+.modal_txt span {
+  font-weight: normal;
+}
+.modal_txt p {
+  padding: 10px;
+}
+.modal_txt h3 {
+  padding: 10px;
+}
+.modal_close {
+  position: relative;
+  cursor: pointer;
+}
+.modal_close::before {
+  content: "";
+  display: block;
+  border-top: 3px solid #333;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 10px;
+  top: 19px;
+}
+.modal_close::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #333;
+  width: 30px;
+  height: 30px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.show {
+  display: block;
+}
+
 .works {
-  background: #909090;
+  background: #F7F7F7;
 }
 
 .feature_txt {
@@ -222,6 +286,8 @@ a {
 .works_card {
   font-weight: bold;
   margin-right: calc((1120px - 300px * 3)/2);
+  cursor: pointer;
+  margin-top: 40px;
 }
 .works_card_img {
   position: relative;

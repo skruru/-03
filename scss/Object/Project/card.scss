@@ -1,6 +1,8 @@
 .works_card {
     font-weight: bold;
     margin-right: calc((1120px - 300px * 3)/2);
+    cursor: pointer;
+    margin-top: 40px;
     &_img {
         position: relative;
     }
